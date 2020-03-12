@@ -3,7 +3,7 @@
 body {
     font-family: orpheuspro, serif;
     margin: 0;
-    font-size: 0.9vw;
+    font-size: calc(9px + 0.35vw);
     line-height: 1.24;
 }
 
@@ -14,7 +14,7 @@ font-size: 2em;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3.25em;
 }
 
 p {
@@ -43,56 +43,30 @@ main {
 .intro {
     flex-grow: inherit;
     margin: 0 auto;
-    padding: 3.6em;
+    padding: 3em;
     height: 100vh;
-    max-width: 76ch;
+    max-width: 73ch;
     position: fixed;
     overflow: scroll;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width: 1024px) {
-
-.intro{
-    position: unset;
-    padding: 2em;
-    height: unset;
-}
-
-.sidepanel{
-    width: 100%;
-    margin: 0;
-}
-}
-
-@media (max-width: 730px) {
-
-    main {
-        width: 100vw;
-    }
-    h1 {
-        font-size: 1.8em;
-    }
-    }
-
 .sidepanel {
     height: 85vh;
     float: right;
     display: grid;
-    grid-template-rows: 1fr;
-    align-content: stretch;
+    grid-template-rows: repeat(1fr);
     right: 0;
 }
 .sidepanel1 {
     padding: 2em;
-    grid-row-start: 1;
     background-color: #CBDEE0;
+    align-content: stretch;
     margin: 0;
 }
 
 .sidepanel2 {
     padding: 2em;
-    grid-row-start: 2;
     background-color: #FAE36A;
     align-content: stretch;
     margin: 0;
@@ -100,7 +74,6 @@ main {
 
 .sidepanel3 {
     padding: 2em;
-    grid-row-start: 3;
     background-color: #F4BC79;
     align-content: stretch;
     margin: 0;
@@ -109,7 +82,6 @@ main {
 .sidepanel4 {
     padding: 2em;
     padding-bottom: 10vh;
-    grid-row-start: 4;
     background-color: #ffa0a0;
     align-content: stretch;
     margin: 0;
@@ -121,7 +93,7 @@ nav {
     position: fixed;
     bottom: 6em;
     text-align: center;
-    z-index: 6;
+    z-index: 99;
 }
 
 nav a {
@@ -130,9 +102,8 @@ font-size: 3em;
 
 footer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     width: 100vw;
-    max-height: 15vh;
     bottom: 0;
     position: fixed;
     color: white;
@@ -147,3 +118,39 @@ footer a {
     font-weight: unset;
     font-size: unset;
 }
+
+
+@media (max-width: 1024px) {
+
+    .intro{
+        position: unset;
+        padding: 2em;
+        height: unset;
+    }
+    
+    .sidepanel{
+        width: 100%;
+        margin: 0;
+    }
+    
+    }
+    
+    
+    @media (max-width: 730px) {
+    
+        main {
+            width: 100vw;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        footer {
+            position: relative;
+            height: auto;
+        }
+    
+        nav {
+            bottom: 25vh;
+        }
+    }
+    
