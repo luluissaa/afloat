@@ -41,22 +41,24 @@ main {
 }
 
 .intro {
-    flex-grow: inherit;
-    margin: 0 auto;
-    padding: 3em;
-    height: 100vh;
-    max-width: 73ch;
+    width: 100%;
+    align-items: center;
     position: fixed;
-    overflow: scroll;
+    padding: 3em;
+}
+
+.intro div {
+    max-width: 72ch;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
 .sidepanel {
-    height: 85vh;
+    height: 100vh;
     float: right;
     display: grid;
     grid-template-rows: repeat(1fr);
     right: 0;
+    margin: 0;
 }
 .sidepanel1 {
     padding: 2em;
@@ -103,7 +105,7 @@ font-size: 3em;
 footer{
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 100vw;
     bottom: 0;
     position: fixed;
@@ -124,10 +126,10 @@ footer a {
 @media (max-width: 1024px) {
 
     .intro{
+        width: unset;
         position: unset;
-        padding: 2em;
-        height: unset;
-    }
+        padding: 3em 2em;
+       }
     
     .sidepanel{
         width: 100%;
@@ -140,28 +142,36 @@ footer a {
     @media (max-width: 730px) {
     
         body {
-            display: inline;
+            background-color: wheat;           
         }
         main {
             width: 100vw;
         }
+        .intro {
+            background-color: white;
+            min-height: 100vw;
+        }
+
         h1 {
-            font-size: 2em;
+            font-size: 2.4em;
         }
         p {
             font-size: 16px;
         }
-        footer {
-            position: relative;
-        }
         .sidepanel {
-            height: inherit;
+            bottom: 10vh;
         }
         .sidepanel4{
-            padding-bottom: 2em;
+            padding-bottom: 8em;
         }
         nav {
             bottom: 32vh;
+        }
+        
+        footer {
+            position: relative;
+            bottom: 0;
+            margin-top: 40%;
         }
 
     }

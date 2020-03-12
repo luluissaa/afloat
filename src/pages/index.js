@@ -11,7 +11,7 @@ const IndexPage = () => (
 
     <div className="intro">
     <div>
-    <h1>Luisa Ji is an explorer of all things curious. She works with people who wants to see old things in new ways and imagine possibilities they’ve never thought of before.</h1>
+    <h1>Luisa Ji is an explorer of all things curious. She works with people who wants to see old things in new ways and imagine possibilities yet to be realized.</h1>
     <Link to="/about/">Read more</Link>
 
     </div>
