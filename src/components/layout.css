@@ -81,7 +81,7 @@ main {
 
 .sidepanel4 {
     padding: 2em;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
     background-color: #ffa0a0;
     align-content: stretch;
     margin: 0;
@@ -93,7 +93,7 @@ nav {
     position: fixed;
     bottom: 6em;
     text-align: center;
-    z-index: 99;
+    z-index: 5;
 }
 
 nav a {
@@ -139,6 +139,9 @@ footer a {
     
     @media (max-width: 730px) {
     
+        body {
+            display: inline;
+        }
         main {
             width: 100vw;
         }
@@ -150,10 +153,13 @@ footer a {
         }
         footer {
             position: relative;
-            height: auto;
-            transform: translateY(15vh);
         }
-    
+        .sidepanel {
+            height: inherit;
+        }
+        .sidepanel4{
+            padding-bottom: 2em;
+        }
         nav {
             bottom: 32vh;
         }
