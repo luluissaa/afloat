@@ -81,7 +81,7 @@ main {
 
 .sidepanel4 {
     padding: 2em;
-    padding-bottom: 10vh;
+    padding-bottom: 15vh;
     background-color: #ffa0a0;
     align-content: stretch;
     margin: 0;
@@ -101,8 +101,9 @@ font-size: 3em;
 }
 
 footer{
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 100vw;
     bottom: 0;
     position: fixed;
@@ -142,15 +143,20 @@ footer a {
             width: 100vw;
         }
         h1 {
-            font-size: 1.8em;
+            font-size: 2em;
+        }
+        p {
+            font-size: 16px;
         }
         footer {
             position: relative;
             height: auto;
+            transform: translateY(15vh);
         }
     
         nav {
-            bottom: 25vh;
+            bottom: 32vh;
         }
+
     }
     
