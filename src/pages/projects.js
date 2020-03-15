@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 const SecondPage = () => (
   <Layout>
@@ -38,9 +38,10 @@ const SecondPage = () => (
 </div>
 
     <nav>
-            <Link to="//">home</Link>
+      <Link to="//">home</Link>
     </nav>
 </div>
+
   </Layout>
 )
 
