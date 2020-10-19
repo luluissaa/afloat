@@ -13,6 +13,10 @@ font-weight: 600;
 font-size: 2em;
 }
 
+a:hover {
+    background-color: coral;
+    }
+
 h1 {
     font-size: 3.25rem;
 }
@@ -130,6 +134,7 @@ nav {
 
 nav a {
 font-size: 3em;
+background-color: aliceblue;
 }
 
 

@@ -125,7 +125,7 @@ const Cell = props => (
             <div className="projects">
                 <div className="project-title">
                 <h2>Publication - Architecture Concordia 2; Symposium at Carleton University 2015-2016</h2>
-                <h1>Exceptional/Exceptionable Spaces</h1>
+                <h1>Exceptional / Exceptionable Spaces</h1>
                 <p>An interdisciplinary collaboration that explores the urban environment and its architectural and spatial composition in relation to migration and diaspora. Events and texts produced in partnership with the Azrieli School of Architecture, Migration and Diaspora Studies at Carleton University, and Roger Connah, joined by symposium keynote Keller Easterling (Extrastatecraft). </p>
                 <a href="https://issuu.com/architectureconcordia/docs/ac2/48" target="_blank" rel="noopener noreferrer">Read on ISSUU</a>
                 </div>
