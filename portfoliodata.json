@@ -1,19 +1,66 @@
 {
     "cells": [
         {
+            "title": "UKAI-NewNotNormal",
+            "category": "Creative Direction, Web Design",
+            "image": "./src/images/nnncover.png",
+            "url": "https://newnotnormal.ukai.ca",
+            "urlname": "Website",
+            "description": "In the search for a speculative architecture to break free from linear evolution, a thoughtful investigation in regards to social, political and economic factors must be conducted. These factors participate within the rhizome, re-appropriating not only on a map, but through a network that suggests an alternative set of parameters influencing architecture and urbanism. This rhizome does not offer a solution to existing architectural difficulties, rather it aims to generate a radical uplift of possibilities: an upheaval, in this senses an architectural performance."
+        },
+        {
+            "title": "UKAI",
+            "category": "Branding, Creative Direction",
+            "image": "nnn",
+            "url": "https://ukai.ca",
+            "urlname": "Website",
+            "description": "Ukai is a Japanese cormorant fishing practice. It happens at night, and the fish are drawn to the surface by a fire suspended over the boat. Cormorants have metal rings around their neck tied to strings that the fishermen hold. The cormorants catch fish but can't swallow them. When their throat is full, they are pulled into the boat, and the fish are dumped into a bucket. The fish are shared with the village, and the birds are allowed to swim and eat without the ring at the end of the evening. It's beautiful, sustainable and incredibly inefficient. There is also some uncertainty about how we're meant to think about the birds. They are treated as pets, but it's a strange thing to watch. UKAI Projects responds to the increasingly narrow set of priorities around efficiency and scale in today's culture. Named after the cormorant fishing practice, UKAI Projects exists to research and model new approaches to cultural production. The direction for UKAI is to embrace the complexity of how cultures change and evolve over time, the discomfort of the process, and the beauty of questioning industrial efficiency in response to the precarity prevalent in cultural production work. In collaboration with Artist-Designer Nour Bishouty, branding UKAI Projects is a process of intentional discomfort, working with limitations, and the discovery of rules to be rewritten. Questioning whether one final logo was a rule we have to follow at all, we arrived at not 1 but 100 \"ukai\" written by Nour while restricting her bodily movements in 100 different ways. The results are strange and unsettling."
+        },
+        {
             "title": "Does Architecture Dream of Upheavals?",
             "category": "M.Arch Thesis 2015",
             "image": "https://miro.medium.com/max/3320/1*vCQJcyhSO1p0FSjhAhJlAA.png",
             "url": "https://medium.com/a-floating-space/up/home",
             "urlname": "Read on Medium.com",
-            "description": "In the search for a speculative architecture to break free from linear evolution, a thoughtful investigation in regards to social, political and economic factors must be conducted. These factors participate within the rhizome, re-appropriating not only on a map, but through a network that suggests an alternative set of parameters influencing architecture and urbanism. This rhizome does not offer a solution to existing architectural difficulties, rather it aims to generate a radical uplift of possibilities: an upheaval, in this senses an architectural performance.            "
+            "description": "In the search for a speculative architecture to break free from linear evolution, a thoughtful investigation in regards to social, political and economic factors must be conducted. These factors participate within the rhizome, re-appropriating not only on a map, but through a network that suggests an alternative set of parameters influencing architecture and urbanism. This rhizome does not offer a solution to existing architectural difficulties, rather it aims to generate a radical uplift of possibilities: an upheaval, in this senses an architectural performance."
         },
         {
-            "title": "Blahhh Blah Blah",
+            "title": "In A Space",
             "category": "not design",
-            "image": "https://www.nomadiclabs.ca/img/logo-03.png",
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a2ee2336167361.571176557e19d.jpg",
             "url": "https://nomadiclabs.ca",
-            "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+            "urlname": "Read on Medium.com",
+            "description": "This installation seeks to draw the viewer into an experience of the merger of worlds. Rather than simply remaining a passive observer of the ‘real’ at-a-distance, the viewer is confronted with a choice to encounter the other half. This other half is none other than that of the ‘dream’."
+        },
+        {
+            "title": "Percy Station",
+            "category": "M.Arch Thesis 2015",
+            "image": "https://miro.medium.com/max/3320/1*vCQJcyhSO1p0FSjhAhJlAA.png",
+            "url": "https://medium.com/a-floating-space/up/home",
+            "urlname": "View on Behance",
+            "description": "In 2016, the City of Ottawa announced an open call for “Streetside Spots”. Among other selected proposals, Percy Station was built to bring cultural programs and micro-businesses back to its site - a local cafe and music venue destroyed in a fire Winter 2015. The construction was sponsored by the City of Ottawa and the Ottawa Chinatown BIA. The residents in the surrounding areas also donated plants, fixtures, and cash to keep Percy Station running for the duration of the “Streetside Spots” program - June to October 2016. The program includes a kiosk run by local businesses on a rotational basis, a social area surrounded by edible plants, and a bike repair tool-stand maintained by volunteers."
+        },
+        {
+            "title": "Exceptional/Exceptionable Spaces",
+            "category": "Publication 2016 - Architecture Concordia 2; Symposium 2015 at Carleton University ",
+            "image": "https://miro.medium.com/max/3320/1*vCQJcyhSO1p0FSjhAhJlAA.png",
+            "url": "https://issuu.com/architectureconcordia/docs/ac2/48",
+            "urlname": "Read on ISSUU",
+            "description": "An interdisciplinary collaboration that explores the urban environment and its architectural and spatial composition in relation to migration and diaspora. Events and texts produced in partnership with the Azrieli School of Architecture, Migration and Diaspora Studies at Carleton University, and Roger Connah, joined by symposium keynote Keller Easterling (Extrastatecraft). "
+        },
+        {
+            "title": "Milieu",
+            "category": "Civic Tech",
+            "image": "https://miro.medium.com/max/3320/1*vCQJcyhSO1p0FSjhAhJlAA.png",
+            "description": "Tech-enabled community engagement for the design of shared urban spaces. As Part of the Guelph Civic Accelerator, Milieu.io worked with public-sector planners to co-develop an engagement platform to better understand residents."
+        },
+        {
+            "title": "Entreé Nord",
+            "category": "Civic Tech / Participatory Urban Design",
+            "image": "https://miro.medium.com/max/3320/1*vCQJcyhSO1p0FSjhAhJlAA.png",
+            "url": "https://issuu.com/architectureconcordia/docs/ac2/48",
+            "urlname": "Read Report",
+            "description": ""
         }
     ]
 }

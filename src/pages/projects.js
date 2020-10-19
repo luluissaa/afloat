@@ -1,29 +1,30 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Cell from "../components/portfolio"
 import portfoliodata from "../../portfoliodata.json"
+import nnn from "../images/nnncover.png"
 
 
-const SecondPage = () => (
+const ProjectPage = () => (
   <Layout>
     
 <div className="container">
-<div className="projects">
-
+<Cell>
+  
+</Cell>
+{/* 
 {portfoliodata.cells.map(cell => (
   <Cell 
   title={cell.title}
+  image={cell.image}
   category={cell.category}
   description={cell.description}
-  image={cell.image}
   url={cell.url}
   urlname={cell.urlname}
   />
 ))}
-
-</div>
+*/}
 
     <nav>
       <Link to="//">home</Link>
@@ -33,4 +34,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default ProjectPage
