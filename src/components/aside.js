@@ -18,13 +18,12 @@ const Aside = ({ siteAside }) => (
       <h2>Thinking & Tinkering</h2>
       <p>cultures / futures /creative strategy</p>
       <a href="https://www.ukai.ca" target="_blank" rel="noopener noreferrer"><h1>UKAI Projects</h1></a>
-      <a href="https://www.futures.design" target="_blank" rel="noopener noreferrer"><h1>Design Futures Initiative</h1></a>
-
     </div>
 
     <div className="sidepanel4">
       <h2>Community</h2>
-      <p>events</p>
+      <p>connections / conversations</p>
+      <a href="https://www.futures.design" target="_blank" rel="noopener noreferrer"><h1>Design Futures Initiative</h1></a>
       <a href="https://www.instagram.com/futures_ottawa" target="_blank" rel="noopener noreferrer"><h1>Speculative Futures Ottawa</h1></a>
       <a href="https://www.instagram.com/lwd_ottawa" target="_blank" rel="noopener noreferrer"><h1>Ladies Wine & Design Ottawa</h1></a>
 

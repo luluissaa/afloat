@@ -14,8 +14,21 @@ const Cell = props => (
                 <div className="project-title">
                 <h2>Creative Direction, Design</h2>
                 <h1>New Not Normal</h1>
-                <p>In the search for a speculative architecture to break free from linear evolution, a thoughtful investigation in regards to social, political and economic factors must be conducted. These factors participate within the rhizome, re-appropriating not only on a map, but through a network that suggests an alternative set of parameters influencing architecture and urbanism. This rhizome does not offer a solution to existing architectural difficulties, rather it aims to generate a radical uplift of possibilities: an upheaval, in this senses an architectural performance.</p>
-                <a href="https://newnotnormal.ukai.ca" target="_blank" rel="noopener noreferrer">newnotnormal.ukai.ca</a>
+                <p>COVID-19 has required us to plant ourselves in one place, but where do we put our emotions -- the feelings we don’t know what to do with?
+                    <ul>
+                        <li>
+                        How do we feel, how do we express, and how do we connect in isolation?
+                        </li>
+                        <li>
+                        Look around. See what others are feeling. You don’t need to do anything.
+                        </li>
+                        <li>
+                        If you want to do something, you can share what you are creating to make sense of this.
+                        </li>
+                    </ul>
+                    Connectedness creates resilience.
+                    </p>
+<a href="https://newnotnormal.ukai.ca" target="_blank" rel="noopener noreferrer">newnotnormal.ukai.ca</a>
                 </div>
 
                 <div className="project-description">

@@ -24,7 +24,7 @@ const ProjectPage = () => (
 */}
 
     <nav>
-      <Link to="//">home</Link>
+      <Link to="/">home</Link>
     </nav>
 </div>
 
