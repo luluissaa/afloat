@@ -2,16 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Cell from "../components/portfolio"
-import portfoliodata from "../../portfoliodata.json"
-import nnn from "../images/nnncover.png"
-
 
 const ProjectPage = () => (
   <Layout>
     
 <div className="container">
 <Cell>
-  
+
 </Cell>
 {/* 
 {portfoliodata.cells.map(cell => (
