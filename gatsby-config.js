@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `A Floating Space`,
-    description: `Luisa Ji, creative strategist, designer, futurist, capturer of images.`,
+    title: `A Floating Space | Luisa Ji`,
+    description: `Luisa Ji, creative strategist, designer, futurist, whatever. I work with people who wants to see old things in new ways and imagine possibilities yet to be realized.`,
+    url: `https://afloating.space`,
     author: `Luisa Ji`,
+    image:"src/images/gatsby-icon.png"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
